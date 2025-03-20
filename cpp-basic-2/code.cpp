@@ -45,6 +45,13 @@ void checkCase() {
 
 
 int main() {
+
+    // Ternary statement
+        // condition ? statement1 : statement2
+        // if condition is true, statement1 is executed, else statement2 is executed
+        // example : n >= 0 ? "positive" : "negative";
+
+
     
     int e;
 
