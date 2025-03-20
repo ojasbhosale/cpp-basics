@@ -32,12 +32,10 @@ void checkCase() {
     cout << "Enter a character: ";
     cin >> ch;
 
-    int ascii = ch;
-
-    if (ascii >= 65 && ascii <= 90) {
+    if (ch >= 65 && ch <= 90) {
         cout << ch << " is an uppercase letter." << endl;
     }
-    else if (ascii >= 97 && ascii <= 122) {
+    else if (ch >= 97 && ch <= 122) {
         cout << ch << " is a lowercase letter." << endl;
     }
     else {
